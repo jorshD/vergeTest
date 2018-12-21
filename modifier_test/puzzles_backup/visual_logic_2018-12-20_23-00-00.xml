@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab"></tab>
+  <tab name="Main" type="MainTab">
+    <block type="whenHovered" id="CI:$Q;e:_hrg7HLu`X$z" x="-130" y="-110">
+      <value name="VALUE">
+        <block type="objectList" id="3[ImX-(:LFa{;O|xmMWD">
+          <field name="FIELDNAME">Cube</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="playAnimationAdv" id="5Oh5}7ELBI?mj0/))Q`R">
+          <mutation advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="animationList" id="p^Q#ruo:;$MPHZEqU)MF">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="stopAnimation" id="!+kirY).[iVZ[1r5RN%.">
+          <value name="VALUE">
+            <block type="animationList" id="HlaD1m[doN{Q/;XI@.]N">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+</xml>
